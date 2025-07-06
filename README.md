@@ -13,8 +13,6 @@
 
 💭 *Still figuring it out, one project at a time.*
 
----
-
 ## 📊 GitHub Stats
 
 ![J-HuertaS's GitHub stats](https://github-readme-stats.vercel.app/api?username=J-HuertaS&show_icons=true&theme=tokyonight)
