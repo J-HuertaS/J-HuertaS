@@ -1,16 +1,30 @@
-## Hi there 👋 I'm Juan HuertaS. Welcome to my profile :)
+## 👋 Hi, I'm Juan Esteban Cárdenas
 
-<!--
-**J-HuertaS/J-HuertaS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 I'm a Systems Engineering student at Universidad Nacional de Colombia, currently exploring different areas of computer science.
 
-Here are some ideas to get you started:
+🔍 I’m interested in:
+- 🛡️ Cybersecurity
+- 🧠 Artificial Intelligence
+- 🌐 Computer Networks
+- 🧮 Algorithms & Competitive Programming
+- 🖥️ A bit of Web Development (React, Tailwind, Three.js)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📚 I enjoy learning by building, solving problems, and experimenting with different technologies.
+
+💭 *Still figuring it out, one project at a time.*
+
+---
+
+## 📊 GitHub Stats
+
+![J-HuertaS's GitHub stats](https://github-readme-stats.vercel.app/api?username=J-HuertaS&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=J-HuertaS&layout=compact&theme=tokyonight)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=J-HuertaS&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=J-HuertaS&theme=tokyonight&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+
+---
+
+📫 Feel free to reach out or connect!
