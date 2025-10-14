@@ -20,9 +20,9 @@ Systems Engineering student at **Universidad Nacional de Colombia**. Passionate 
 | Area | Technologies & Tools |
 |------|---------------------|
 | Frontend | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white) |
-| Backend | ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white), REST APIs, GraphQL APIs|
+| Backend | ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white) REST APIs, GraphQL APIs|
 | Software Engineering | System Design, Software Lifecycle, Architecture Principles |
-| DevOps & Cloud | ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white), CI/CD, Cloud Deployment Concepts |
+| DevOps & Cloud | ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white) CI/CD, Cloud Deployment Concepts |
 | Programming & Algorithms | Python, C++, Problem Solving, Competitive Programming, Algorithms and efficiency |
 
 ---
