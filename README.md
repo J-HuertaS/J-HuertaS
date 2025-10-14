@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Juan Esteban Cárdenas
+# Hi, I'm Juan HuertaS
 
 Systems Engineering student at **Universidad Nacional de Colombia**. Passionate about building scalable and maintainable software, with a focus on **web development** and **software architecture**.  
 
@@ -6,7 +6,7 @@ Systems Engineering student at **Universidad Nacional de Colombia**. Passionate 
 
 ---
 
-## 🛠️ Core Focus Areas
+## Core Focus Areas
 
 - 🌐 **Web Development:** React, Next.js (SSR), Tailwind; building responsive and performant web applications.  
 - 🏗️ **Software Architecture & Engineering:** System design, software lifecycle, scalable architectures, and clean code practices.  
@@ -27,9 +27,9 @@ Systems Engineering student at **Universidad Nacional de Colombia**. Passionate 
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### [Web App with Next.js SSR]([https://github.com/J-HuertaS/nextjs-ssr-project](https://github.com/ArquiSoft-Grupo-2B/frontend-ssr.git))
+### [Web App with Next.js SSR](https://github.com/ArquiSoft-Grupo-2B/frontend-ssr.git)
 - Built a **server-side rendered web app** with Next.js and React.  
 - Integrated backend logic using different technologies such as Flask, TypeScript.  
 - Focused on modular, maintainable architecture and clean component design.
