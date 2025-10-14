@@ -1,28 +1,60 @@
-## 👋 Hi, I'm Juan Esteban Cárdenas
+# 👋 Hi, I'm Juan Esteban Cárdenas
 
-🎓 I'm a Systems Engineering student at Universidad Nacional de Colombia, currently exploring different areas of computer science.
+🎓 Systems Engineering student at **Universidad Nacional de Colombia**. Passionate about building scalable and maintainable software, with a focus on **web development** and **software architecture**.  
 
-🔍 I’m interested in:
-- 🛡️ Cybersecurity
-- 🧠 Artificial Intelligence
-- 🌐 Computer Networks
-- 🧮 Algorithms & Competitive Programming
-- 🖥️ A bit of Web Development (React, Tailwind, Three.js)
-
-📚 I enjoy learning by building, solving problems, and experimenting with different technologies.
-
-💭 *Still figuring it out, one project at a time.*
-
-## 📊 GitHub Stats
-
-![J-HuertaS's GitHub stats](https://github-readme-stats.vercel.app/api?username=J-HuertaS&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=J-HuertaS&layout=compact&theme=tokyonight)
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=J-HuertaS&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=J-HuertaS&theme=tokyonight&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+💡 **My approach:** Understanding the full software lifecycle, from design and planning to deployment, while experimenting with modern technologies.  
 
 ---
 
-📫 Feel free to reach out or connect!
+## 🛠️ Core Focus Areas
+
+- 🌐 **Web Development:** React, Next.js (SSR), Tailwind; building responsive and performant web applications.  
+- 🏗️ **Software Architecture & Engineering:** System design, software lifecycle, scalable architectures, and clean code practices.  
+- ☁️ **Cloud & DevOps:** CI/CD pipelines, deployment strategies, and cloud infrastructure.  
+- 🛡️ **Security & AI:** Awareness of secure design practices and AI integration for software solutions.  
+
+---
+
+## 💻 Technical Skills
+
+| Area | Technologies & Tools |
+|------|---------------------|
+| Frontend | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white) |
+| Backend | ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white) REST APIs |
+| Software Engineering | System Design, Software Lifecycle, Architecture Principles |
+| DevOps & Cloud | ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white) CI/CD, Cloud Deployment Concepts |
+| Programming & Algorithms | Python, C++, Problem Solving, Competitive Programming |
+
+---
+
+## 🚀 Featured Projects
+
+### [Web App with Next.js SSR](https://github.com/J-HuertaS/nextjs-ssr-project)
+- Built a **server-side rendered web app** with Next.js, React, and Tailwind.  
+- Integrated backend logic using Flask API.  
+- Focused on modular, maintainable architecture and clean component design.
+
+### [Simulation Models (NetLogo & AnyLogic)](https://github.com/J-HuertaS/simulation-models)
+- Developed **agent-based simulation models** for service systems and networks.  
+- Analyzed metrics to optimize processes.  
+- Applied **software engineering best practices** for maintainable code.
+
+### [Algorithms & Competitive Programming](https://github.com/J-HuertaS/competitive-programming)
+- Solved problems in Python and C++ with focus on **graphs, dynamic programming, and data structures**.  
+- Strengthened problem-solving and algorithmic thinking skills.  
+
+---
+
+## 📊 GitHub Stats
+
+![J-HuertaS's GitHub stats](https://github-readme-stats.vercel.app/api?username=J-HuertaS&show_icons=true&theme=tokyonight)  
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=J-HuertaS&layout=compact&theme=tokyonight)  
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=J-HuertaS&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)  
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=J-HuertaS&theme=tokyonight&row=1)](https://github.com/ryo-ma/github-profile-trophy)  
+
+---
+
+📫 **Let’s connect!** Open to collaboration, mentorship, or discussions about web development, software architecture, and modern software engineering practices.
