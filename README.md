@@ -1,7 +1,3 @@
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Systems+Engineering+Student;Software+Engineer;Backend+Developer" />
-</p>
-
 # Hi, I'm Juan HuertaS
 
 Systems Engineering student at **Universidad Nacional de Colombia**.
@@ -13,6 +9,8 @@ I enjoy understanding systems end-to-end — from designing maintainable archite
 
 * 🌐 **Web Development:** Building modern web applications using React, Next.js (SSR), and Tailwind.
 * 🏗️ **Software Engineering:** Software lifecycle, clean architecture, maintainable code, and system design principles.
+* 🧩 **Software Architecture:** Designing modular and scalable systems using well-structured architectural patterns.
+* ☁️ **Cloud Deployment:** Understanding deployment workflows and deploying applications to cloud environments.
 * 🧠 **Algorithms & Problem Solving:** Competitive programming and algorithmic thinking to improve problem-solving and efficiency.
 
 ## 💻 Technical Skills
@@ -57,7 +55,7 @@ A curated repository focused on strengthening **algorithmic thinking and efficie
 ## Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/J-HuertaS/J-HuertaS/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/J-HuertaS/J-HuertaS/output/github-contribution-grid-snake.svg" />
 </p>
 
 ## Let's Connect
