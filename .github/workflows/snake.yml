@@ -13,7 +13,7 @@ jobs:
       contents: write
 
     steps:
-      - name: Generate snake animation
+      - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: J-HuertaS
