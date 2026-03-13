@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Systems+Engineering+Student;Software+Engineer;Backend+Developer" />
+</p>
+
 # Hi, I'm Juan HuertaS
 
 Systems Engineering student at **Universidad Nacional de Colombia**.
@@ -5,29 +9,23 @@ Interested in building **reliable software systems**, with a strong focus on **w
 
 I enjoy understanding systems end-to-end — from designing maintainable architectures to implementing efficient solutions.
 
----
-
 ## Core Focus Areas
 
 * 🌐 **Web Development:** Building modern web applications using React, Next.js (SSR), and Tailwind.
 * 🏗️ **Software Engineering:** Software lifecycle, clean architecture, maintainable code, and system design principles.
 * 🧠 **Algorithms & Problem Solving:** Competitive programming and algorithmic thinking to improve problem-solving and efficiency.
 
----
-
 ## 💻 Technical Skills
 
 | Area            | Technologies & Tools                                                                                                                                                                                                                                                       |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Frontend        | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react\&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js\&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwindcss\&logoColor=white) |
-| Backend         | ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask\&logoColor=white) REST APIs, GraphQL APIs                                                                                                                                                                               |
+| Backend         | ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask\&logoColor=white) REST APIs, GraphQL APIs                                                                                                                                                                   |
 | Programming     | C++, Python, JavaScript, TypeScript                                                                                                                                                                                                                                        |
 | Algorithms & CS | Data Structures, Algorithms, Problem Solving                                                                                                                                                                                                                               |
 | Tools           | ![Git](https://img.shields.io/badge/-Git-F05032?logo=git\&logoColor=white)                                                                                                                                                                                                 |
 
 Currently learning **Java and backend development concepts** as part of my software engineering training.
-
----
 
 ## Featured Projects
 
@@ -56,11 +54,14 @@ A curated repository focused on strengthening **algorithmic thinking and efficie
 * Repository organized by **algorithmic topics and patterns** (greedy, graphs, dynamic programming, etc.).
 * Each problem includes explanations and complexity analysis.
 
----
+## Activity
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/J-HuertaS/J-HuertaS/output/github-contribution-grid-snake-dark.svg" />
+</p>
 
 ## Let's Connect
 
 I'm always open to conversations about **software engineering, web development, algorithms, and learning new technologies**.
 
 Feel free to explore my repositories or reach out if you'd like to collaborate.
-
