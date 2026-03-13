@@ -1,60 +1,66 @@
 # Hi, I'm Juan HuertaS
 
-Systems Engineering student at **Universidad Nacional de Colombia**. Passionate about building scalable and maintainable software, with a focus on **web development** and **software architecture**.  
+Systems Engineering student at **Universidad Nacional de Colombia**.
+Interested in building **reliable software systems**, with a strong focus on **web development, software engineering practices, and algorithmic problem solving**.
 
-**My approach:** Understanding the full software lifecycle, from design and planning to deployment, while experimenting with modern technologies.  
+I enjoy understanding systems end-to-end — from designing maintainable architectures to implementing efficient solutions.
 
 ---
 
 ## Core Focus Areas
 
-- 🌐 **Web Development:** React, Next.js (SSR), Tailwind; building responsive and performant web applications.  
-- 🏗️ **Software Architecture & Engineering:** System design, software lifecycle, scalable architectures, and clean code practices.  
-- ☁️ **Cloud & DevOps:** CI/CD pipelines, deployment strategies, and cloud infrastructure.  
-- 🛡️ **Security & AI:** Awareness of secure design practices and AI integration for software solutions.  
+* 🌐 **Web Development:** Building modern web applications using React, Next.js (SSR), and Tailwind.
+* 🏗️ **Software Engineering:** Software lifecycle, clean architecture, maintainable code, and system design principles.
+* 🧠 **Algorithms & Problem Solving:** Competitive programming and algorithmic thinking to improve problem-solving and efficiency.
 
 ---
 
 ## 💻 Technical Skills
 
-| Area | Technologies & Tools |
-|------|---------------------|
-| Frontend | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white) |
-| Backend | ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white) REST APIs, GraphQL APIs|
-| Software Engineering | System Design, Software Lifecycle, Architecture Principles |
-| DevOps & Cloud | ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white) CI/CD, Cloud Deployment Concepts |
-| Programming & Algorithms | Python, C++, Problem Solving, Competitive Programming, Algorithms and efficiency |
+| Area            | Technologies & Tools                                                                                                                                                                                                                                                       |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Frontend        | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react\&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js\&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwindcss\&logoColor=white) |
+| Backend         | ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask\&logoColor=white) REST APIs, GraphQL APIs                                                                                                                                                                               |
+| Programming     | C++, Python, JavaScript, TypeScript                                                                                                                                                                                                                                        |
+| Algorithms & CS | Data Structures, Algorithms, Problem Solving                                                                                                                                                                                                                               |
+| Tools           | ![Git](https://img.shields.io/badge/-Git-F05032?logo=git\&logoColor=white)                                                                                                                                                                                                 |
+
+Currently learning **Java and backend development concepts** as part of my software engineering training.
 
 ---
 
 ## Featured Projects
 
 ### [Web App with Next.js SSR](https://github.com/ArquiSoft-Grupo-2B/frontend-ssr.git)
-- Built a **server-side rendered web app** with Next.js and React.  
-- Integrated backend logic using different technologies such as Flask, TypeScript.  
-- Focused on modular, maintainable architecture and clean component design.
+
+* Developed a **server-side rendered web application** using Next.js and React.
+* Integrated backend services built with **Flask and TypeScript**.
+* Focused on **modular architecture and maintainable component design**.
+
+---
 
 ### [Software System using SOFEA architecture](https://github.com/orgs/MascotasBogota/repositories)
-- Clean and modular code.
-- Analyzed metrics to optimize processes.  
-- Applied **software engineering best practices** for maintainable code.
 
-### [Algorithms & Competitive Programming]
-- Solved problems in Python and C++ with focus on **graphs, dynamic programming, and data structures**.  
-- Strengthened problem-solving and algorithmic thinking skills.  
+* Developed a modular software system following **SOFEA architectural principles**.
+* Applied **software engineering best practices** to ensure maintainability and scalability.
+* Worked with collaborative development, version control, and structured project organization.
 
 ---
 
-## 📊 GitHub Stats
+### [Competitive Programming & Algorithms](https://github.com/J-HuertaS/cp-playground.git)
 
-![J-HuertaS's GitHub stats](https://github-readme-stats.vercel.app/api?username=J-HuertaS&show_icons=true&theme=tokyonight)  
+A curated repository focused on strengthening **algorithmic thinking and efficient problem solving**.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=J-HuertaS&layout=compact&theme=tokyonight)  
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=J-HuertaS&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)  
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=J-HuertaS&theme=tokyonight&row=1)](https://github.com/ryo-ma/github-profile-trophy)  
+* Solutions implemented primarily in **C++**.
+* Problems mainly from **Codeforces**.
+* Repository organized by **algorithmic topics and patterns** (greedy, graphs, dynamic programming, etc.).
+* Each problem includes explanations and complexity analysis.
 
 ---
 
-**Let’s connect!** Open to collaboration, mentorship, or discussions about web development, software architecture, and modern software engineering practices.
+## Let's Connect
+
+I'm always open to conversations about **software engineering, web development, algorithms, and learning new technologies**.
+
+Feel free to explore my repositories or reach out if you'd like to collaborate.
+
