@@ -1,6 +1,9 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg">
   <img src="./assets/profile-light.svg" width="100%" alt="Juan Huertas — software engineer from Bogotá, co-founder & CTO at TaoTek. I grow software. Currently building Resva, studying Go and Java/Spring Boot, training algorithms and data structures, reading in English. Craft: Next.js, React, TypeScript, Tailwind, Flask. Fundamentals: C++ and Python for algorithms; microservices and multi-tenancy; PostgreSQL, Supabase, Redis; GCP, Azure, Vercel, Terraform, Nginx. Learning Go, Java and Spring Boot. Open to software engineering roles and internships for 2027.">
+</picture><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/records-dark.svg">
+  <img src="./assets/records-light.svg" width="100%" alt="Field records: my GitHub contribution calendar for the last 12 months, longest streak and top languages, redrawn daily.">
 </picture>
 
 <p align="center">
