@@ -21,15 +21,21 @@ THEMES = {
     "dark": dict(paper="#141414", ink="#f2efe8", muted="#a8a29a", hair="#34312d", hanko="#c9433f", lvl=["#34312d", "#6b665e", "#a8a29a", "#d4cfc5", "#f2efe8"]),
 }
 
-QUERY = """query($login:String!){user(login:$login){createdAt
- repositories(ownerAffiliations:OWNER,isFork:false,privacy:PUBLIC,first:100){totalCount nodes{name languages(first:8,orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}}}
+QUERY = """query($login:String!,$aff:[RepositoryAffiliation],$privacy:RepositoryPrivacy){user(login:$login){createdAt
+ repositories(ownerAffiliations:$aff,isFork:false,privacy:$privacy,first:100){totalCount nodes{name languages(first:8,orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}}}
  contributionsCollection{totalCommitContributions totalPullRequestContributions restrictedContributionsCount
   contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}"""
 
 def fetch():
-    token = os.environ["GITHUB_TOKEN"]
+    # RECORDS_TOKEN (optional, read-only PAT) lets private and organisation repos such as Resva
+    # count toward languages; only aggregate percentages are drawn, never repo names.
+    private = bool(os.environ.get("RECORDS_TOKEN"))
+    token = os.environ.get("RECORDS_TOKEN") or os.environ["GITHUB_TOKEN"]
+    variables = {"login": LOGIN,
+                 "aff": ["OWNER", "ORGANIZATION_MEMBER", "COLLABORATOR"] if private else ["OWNER"],
+                 "privacy": None if private else "PUBLIC"}
     req = urllib.request.Request("https://api.github.com/graphql",
-                                 data=json.dumps({"query": QUERY, "variables": {"login": LOGIN}}).encode(),
+                                 data=json.dumps({"query": QUERY, "variables": variables}).encode(),
                                  headers={"Authorization": f"bearer {token}", "Content-Type": "application/json",
                                           "User-Agent": "field-records"})
     with urllib.request.urlopen(req, timeout=30) as r:
@@ -152,7 +158,8 @@ def render(u, theme, t):
     tot = sum(langs.values()) or 1
     top = sorted(langs.items(), key=lambda kv: -kv[1])[:5]
     sy = ly + 62
-    txt(48, sy, f"languages in the soil · code only, across {u['repositories']['totalCount']} public repositories", 11, M, t["muted"], extra='letter-spacing="1"')
+    scope = "repositories" if os.environ.get("RECORDS_TOKEN") else "public repositories"
+    txt(48, sy, f"languages in the soil · code only, across {u['repositories']['totalCount']} {scope}", 11, M, t["muted"], extra='letter-spacing="1"')
     x = 48; barw = W - 96
     fills = [t["ink"], t["lvl"][3], t["lvl"][2], t["lvl"][1], t["lvl"][0]]
     other = tot - sum(sz for _, sz in top)

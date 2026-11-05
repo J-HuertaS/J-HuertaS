@@ -16,6 +16,7 @@ jobs:
       - name: Draw plate 04
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RECORDS_TOKEN: ${{ secrets.RECORDS_TOKEN }}
         run: python3 .github/scripts/field_records.py
       - name: Commit if changed
         run: |
