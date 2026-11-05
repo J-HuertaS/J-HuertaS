@@ -149,12 +149,14 @@ def render(u, theme, t):
     # markup, notebooks and build files inflate byte counts without saying what I write
     SKIP = {"Jupyter Notebook", "HTML", "CSS", "SCSS", "Sass", "Less", "Makefile", "Dockerfile", "Procfile",
             "Batchfile", "PowerShell", "Roff", "TeX", "Mako", "Jinja", "Handlebars", "EJS"}
+    # every repository weighs the same, so one repo with vendored or generated code can't drown the rest
     langs = {}
     for r in u["repositories"]["nodes"]:
-        for e in r["languages"]["edges"]:
+        edges = [e for e in r["languages"]["edges"] if e["node"]["name"] not in SKIP]
+        rt = sum(e["size"] for e in edges)
+        for e in edges:
             n = e["node"]["name"]
-            if n in SKIP: continue
-            langs[n] = langs.get(n, 0) + e["size"]
+            langs[n] = langs.get(n, 0) + e["size"] / rt
     tot = sum(langs.values()) or 1
     top = sorted(langs.items(), key=lambda kv: -kv[1])[:5]
     sy = ly + 62
