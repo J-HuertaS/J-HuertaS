@@ -140,14 +140,19 @@ def render(u, theme, t):
     txt(W - 48, ly + 4, "fig. d — one dot per day, inked by activity", 10.5, M, t["muted"], "end")
 
     # ---- languages as soil strata
+    # markup, notebooks and build files inflate byte counts without saying what I write
+    SKIP = {"Jupyter Notebook", "HTML", "CSS", "SCSS", "Sass", "Less", "Makefile", "Dockerfile", "Procfile",
+            "Batchfile", "PowerShell", "Roff", "TeX", "Mako", "Jinja", "Handlebars", "EJS"}
     langs = {}
     for r in u["repositories"]["nodes"]:
         for e in r["languages"]["edges"]:
-            langs[e["node"]["name"]] = langs.get(e["node"]["name"], 0) + e["size"]
+            n = e["node"]["name"]
+            if n in SKIP: continue
+            langs[n] = langs.get(n, 0) + e["size"]
     tot = sum(langs.values()) or 1
     top = sorted(langs.items(), key=lambda kv: -kv[1])[:5]
     sy = ly + 62
-    txt(48, sy, f"languages in the soil · {u['repositories']['totalCount']} public repositories", 11, M, t["muted"], extra='letter-spacing="1"')
+    txt(48, sy, f"languages in the soil · code only, across {u['repositories']['totalCount']} public repositories", 11, M, t["muted"], extra='letter-spacing="1"')
     x = 48; barw = W - 96
     fills = [t["ink"], t["lvl"][3], t["lvl"][2], t["lvl"][1], t["lvl"][0]]
     for i, (name, size) in enumerate(top):
