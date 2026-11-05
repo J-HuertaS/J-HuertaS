@@ -160,8 +160,7 @@ def render(u, theme, t):
     tot = sum(langs.values()) or 1
     top = sorted(langs.items(), key=lambda kv: -kv[1])[:5]
     sy = ly + 62
-    scope = "repositories" if os.environ.get("RECORDS_TOKEN") else "public repositories"
-    txt(48, sy, f"languages in the soil · code only, across {u['repositories']['totalCount']} {scope}", 11, M, t["muted"], extra='letter-spacing="1"')
+    txt(48, sy, "languages in the soil · share of code", 11, M, t["muted"], extra='letter-spacing="1"')
     x = 48; barw = W - 96
     fills = [t["ink"], t["lvl"][3], t["lvl"][2], t["lvl"][1], t["lvl"][0]]
     other = tot - sum(sz for _, sz in top)
