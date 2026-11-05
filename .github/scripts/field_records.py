@@ -99,7 +99,6 @@ def render(u, theme, t):
 
     # ---- header
     o.append(f'<line x1="48" y1="0" x2="{W-48}" y2="0" stroke="{t["ink"]}" stroke-width="2"/>')
-    txt(48, 40, "PLATE 04 — FIELD RECORDS", 11, M, t["muted"], extra='letter-spacing="3"')
     txt(W - 48, 40, f"updated {dt.date.today().isoformat()}", 11, M, t["muted"], "end", 'letter-spacing="1"')
     txt(44, 118, "Field records,", 72, S)
 
