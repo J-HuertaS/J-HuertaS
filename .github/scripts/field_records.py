@@ -155,13 +155,25 @@ def render(u, theme, t):
     txt(48, sy, f"languages in the soil · code only, across {u['repositories']['totalCount']} public repositories", 11, M, t["muted"], extra='letter-spacing="1"')
     x = 48; barw = W - 96
     fills = [t["ink"], t["lvl"][3], t["lvl"][2], t["lvl"][1], t["lvl"][0]]
-    for i, (name, size) in enumerate(top):
+    other = tot - sum(sz for _, sz in top)
+    segs = [(n, sz, fills[i]) for i, (n, sz) in enumerate(top)] + ([("other", other, "none")] if other > 0 else [])
+    for name, size, fill in segs:
         w = barw * size / tot
-        o.append(f'<rect x="{x:.1f}" y="{sy + 16}" width="{max(w - 3, 1):.1f}" height="10" fill="{fills[i]}"/>')
-        if w > 70:
-            txt(x, sy + 46, esc(name), 12, M)
-            txt(x, sy + 62, f"{100 * size / tot:.0f}%", 11, M, t["muted"])
+        if fill == "none":
+            o.append(f'<rect x="{x+.5:.1f}" y="{sy + 16.5}" width="{max(w - 3, 1):.1f}" height="9" fill="none" stroke="{t["hair"]}"/>')
+        else:
+            o.append(f'<rect x="{x:.1f}" y="{sy + 16}" width="{max(w - 3, 1):.1f}" height="10" fill="{fill}"/>')
         x += w
+    # legend row: swatch, name, share of all code
+    lx = 48
+    for name, size, fill in segs:
+        label = f"{name} {100 * size / tot:.0f}%"
+        if fill == "none":
+            o.append(f'<rect x="{lx+.5}" y="{sy + 41.5}" width="9" height="9" fill="none" stroke="{t["muted"]}"/>')
+        else:
+            o.append(f'<rect x="{lx}" y="{sy + 41}" width="10" height="10" fill="{fill}" stroke="{t["muted"] if fill == t["lvl"][0] else fill}"/>')
+        txt(lx + 16, sy + 50, esc(label), 12, M)
+        lx += 16 + len(label) * 7.3 + 26
     # ---- colophon
     cy = sy + 112
     o.append(f'<line x1="48" y1="{cy}" x2="{W-48}" y2="{cy}" stroke="{t["ink"]}" stroke-width="1"/>')
