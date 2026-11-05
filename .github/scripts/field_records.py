@@ -211,6 +211,11 @@ def render(u, theme, t):
 
 if __name__ == "__main__":
     u = sample() if "--sample" in sys.argv else fetch()
+    cc = u["contributionsCollection"]
+    # counts only (never repo names): helps check whether private work is reaching the calendar
+    print(f"calendar total={cc['contributionCalendar']['totalContributions']} "
+          f"commits={cc['totalCommitContributions']} prs={cc['totalPullRequestContributions']} "
+          f"private(restricted)={cc['restrictedContributionsCount']} token={'RECORDS_TOKEN' if os.environ.get('RECORDS_TOKEN') else 'GITHUB_TOKEN'}")
     out = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else OUT
     os.makedirs(out, exist_ok=True)
     for name, t in THEMES.items():
